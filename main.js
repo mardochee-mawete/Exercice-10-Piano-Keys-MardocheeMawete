@@ -13,6 +13,10 @@ function keyPlay (e){
   e.target.style.backgroundColor="#00ff00";
 }
 
+function keyReturn(e){
+  e.target.style.backgroundColor="";
+}
+
 // Write a loop that runs the array elements through the function
 
 
