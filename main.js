@@ -17,6 +17,11 @@ function keyReturn(e){
   e.target.style.backgroundColor="";
 }
 
+function assignEventsKey(note){
+  note.addEventListener('mousedown', keyPlay);
+  note.addEventListener('mouseup', keyReturn);
+}
+
 // Write a loop that runs the array elements through the function
 
 
