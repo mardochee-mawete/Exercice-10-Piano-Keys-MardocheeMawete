@@ -9,7 +9,9 @@ keys.forEach(function(key){
 
 
 // Write a named function with event handler properties
-
+function keyPlay (e){
+  e.target.style.backgroundColor="#00ff00";
+}
 
 // Write a loop that runs the array elements through the function
 
